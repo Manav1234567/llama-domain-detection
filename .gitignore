@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# But keep the gitignore itself
+!.gitignore
+
+# Keep only these files/folders
+!experiment1.ipynb
+!political_probe_dataset.pkl
+!political_flag_classifier.pkl
