@@ -1,12 +1,28 @@
-# Ignore everything
+# Ignore everything by default
 *
 
-# But keep the gitignore itself
+# Keep gitignore and configuration
 !.gitignore
+!.gitattributes
 
-# Keep only these files/folders
+# Keep source code and package
+!rep_guardrails/
+!rep_guardrails/**
+!run_agent.py
+!demo.py
+!feature_extractor.py
 !experiment1.ipynb
+
+# Keep key data and model artifacts
 !political_probe_dataset.pkl
 !political_flag_classifier.pkl
 !README.md
 !report.pdf
+!latent_pca_projection.png
+!feature_loadings_importance.png
+
+# Ignore Python caches and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+.tmp*

@@ -1,0 +1,2 @@
+*.pkl filter=lfs diff=lfs merge=lfs -text
+political_flag_classifier.pkl filter=lfs diff=lfs merge=lfs -text
